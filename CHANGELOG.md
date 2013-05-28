@@ -1,5 +1,8 @@
 # UNRELEASED
 
+* ActiveRecord::SerializerOverride Passing options to ActiveModel::Serializer constructor instead
+  of a parameter to called to_json and as_json methods
+
 * ActiveModel::Serializable was created it has the shared code between
   AM::Serializer and AM::ArraySerializer. Basically enable objects to be
   serializable by implementing an options method to handle the options
